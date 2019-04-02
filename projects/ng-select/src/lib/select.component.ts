@@ -508,6 +508,7 @@ export class SelectComponent implements ControlValueAccessor, OnChanges, OnInit 
     _focus() {
         if (!this.hasFocus) {
             this.hasFocus = true;
+            this.open();
             this.focus.emit(null);
         }
     }
