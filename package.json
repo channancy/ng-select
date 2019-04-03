@@ -5,7 +5,7 @@
   "scripts": {
     "test-lib": "ng test ng-select",
     "lint-lib": "ng lint ng-select",
-    "build-lib": "./node_modules/@angular/cli/bin/ng build ng-select",
+    "build-lib": "ng build ng-select",
     "postinstall" : "npm run build-lib",
     "serve-demo": "ng serve",
     "build-demo": "ng build ng-select-demo",
